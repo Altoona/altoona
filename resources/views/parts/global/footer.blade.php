@@ -5,3 +5,6 @@
 
     </div>
 </footer>
+
+{{-- Scripts --}}
+<script src="/js/app.js"></script>
