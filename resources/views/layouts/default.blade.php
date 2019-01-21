@@ -4,7 +4,18 @@
     @include('parts.global.head')
 
     <body>
-        @yield('body')
+
+        {{-- Header --}}
+        @include('parts.global.header')
+
+        {{-- Body --}}
+        <main>
+            @yield('body')
+        </main>
+
+        {{-- Footer --}}
+        @include('parts.global.footer')
+
     </body>
 
 </html>
